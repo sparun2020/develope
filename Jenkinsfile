@@ -15,7 +15,7 @@ pipeline {
         stage('Deploy') {
             when {
                   not
-                     {}
+                     {
                        branch "master"
                   }
             }
