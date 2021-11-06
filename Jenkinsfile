@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                    input('Do you want to continue')
+                   echo "Run --->" 
             }
         }
         stage('Deploy') {
