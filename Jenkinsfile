@@ -24,6 +24,7 @@ pipeline {
             }
             steps {
                     echo "Run"
+                    sh 'mvn --version'
             }
 
         }
